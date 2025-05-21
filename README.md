@@ -1,6 +1,16 @@
 # UKB-RAPの使い方メモ
 
 
+
+## 使えるライブラリ
+
+https://dnanexus.gitbook.io/uk-biobank-rap/working-on-the-research-analysis-platform/running-analysis-jobs/tools-library
+
+JupyterLab経由で使えというものが多い
+
+
+## JupyterLabの使い方
+
 インストールは以下のコマンドを実行する。
 
 ```bash
