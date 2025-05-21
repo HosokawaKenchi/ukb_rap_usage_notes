@@ -4,13 +4,23 @@
 
 ## 使えるライブラリ
 
-https://dnanexus.gitbook.io/uk-biobank-rap/working-on-the-research-analysis-platform/running-analysis-jobs/tools-library
+[UKB-RAP Tools library](https://dnanexus.gitbook.io/uk-biobank-rap/working-on-the-research-analysis-platform/running-analysis-jobs/tools-library)
 
-JupyterLab経由で使えというものが多い
+- Genomicsのみ特有のツール
+- それ以外（主要な統計、MRI等含む）は DXJupyterLab App (DNAnexus Platform App) 経由で使えというものが多い
 
 
-## JupyterLabの使い方
+## DXJupyterLabの使い方
 
+- [DXJupyterLab](https://ukbiobank.dnanexus.com/panx/tool/app/dxjupyterlab) アプリは、様々なツールを導入済みのJupyterLabサーバーを実行するDockerコンテナである
+ - DXJupyterLabを起動する（Dockerコンテナをインスタンス化する）と、サーバーが立ち上がる
+ - このサーバーにブラウザからHTTPSで接続してサーバー上のJupyter Notebookを動かす
+ - ユーザーから見るとブラウザアプリに見える
+
+
+
+### JupyterLabの使い方
+ 
 インストールは以下のコマンドを実行する。
 
 ```bash
