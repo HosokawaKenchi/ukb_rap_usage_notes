@@ -17,7 +17,7 @@
  - このサーバーにブラウザからHTTPSで接続してサーバー上のJupyter Notebookを動かす
  - ユーザーから見るとブラウザアプリに見える
 
-!(DXJupyterLab)[DXJupyterLab.svg]
+![DXJupyterLab](DXJupyterLab.svg)
 
 
 ### JupyterLabの使い方
