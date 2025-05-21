@@ -26,6 +26,9 @@
 - [Building Applications for Efficient Analysis on UKB-RAP](https://www.youtube.com/watch?v=LC3JcBYj-Mo)
 
 
+[![紹介動画](https://hosokawakenchi.github.io/ukb_rap_usage_notes/images/Introduction to Jupyter Notebooks on UKB-RAP - YouTube.png)](https://www.youtube.com/watch?v=YIPdhf3qbQA)
+
+
 
 ### ローカルにJupyterLab環境を立ち上げる時の使い方（我々は使用しない）
  
