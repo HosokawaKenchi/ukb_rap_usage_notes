@@ -20,14 +20,10 @@
 ![DXJupyterLab](https://hosokawakenchi.github.io/ukb_rap_usage_notes/images/DXJupyterLab_diagram.svg)
 
 
-Introduction to Jupyter Notebooks on UKB-RAP
-<video src="https://www.youtube.com/watch?v=YIPdhf3qbQA" controls="true"></video>
-
-Exploring and Analyzing UK Biobank Data with Jupyter Notebooks
-<video src="https://www.youtube.com/watch?v=jodNjrYF8po" controls="true"></video>
-
-Building Applications for Efficient Analysis on UKB-RAP
-<video src="https://www.youtube.com/watch?v=LC3JcBYj-Mo" controls="true"></video>
+**Youtube Tutorial**
+- [Introduction to Jupyter Notebooks on UKB-RAP (youtube)](https://www.youtube.com/watch?v=YIPdhf3qbQA)
+- [Exploring and Analyzing UK Biobank Data with Jupyter Notebooks](https://www.youtube.com/watch?v=jodNjrYF8po)
+- [Building Applications for Efficient Analysis on UKB-RAP](https://www.youtube.com/watch?v=LC3JcBYj-Mo)
 
 
 
