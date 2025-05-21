@@ -20,17 +20,12 @@
 ![DXJupyterLab](https://hosokawakenchi.github.io/ukb_rap_usage_notes/DXJupyterLab_diagram.svg)
 
 
-### JupyterLabの使い方
+### ローカルにJupyterLab環境を立ち上げる時の使い方（我々は使用しない）
  
-インストールは以下のコマンドを実行する。
-
-```bash
-python -m pip install jupyterlab
-```
-
 起動はVisual Studio Codeのターミナルから以下のコマンドを実行する。
 なぜかVS Code以外のプロンプトからは成功しない。
 
 ```bash
+python -m pip install jupyterlab
 python -m jupyterlab
 ```
