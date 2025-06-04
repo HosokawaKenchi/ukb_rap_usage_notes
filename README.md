@@ -5,35 +5,36 @@
 ## DXJupyterLabの使い方
 
 - [DXJupyterLab](https://ukbiobank.dnanexus.com/panx/tool/app/dxjupyterlab) アプリは、様々なツールを導入済みのJupyterLabサーバーを実行するDockerコンテナである
- - DXJupyterLabを起動する（Dockerコンテナをインスタンス化する）と、サーバーが立ち上がる
- - このサーバーにブラウザからHTTPSで接続してサーバー上のJupyter Notebookを動かす
- - ユーザーから見るとブラウザアプリに見える
+    - DXJupyterLabを起動する（Dockerコンテナをインスタンス化する）と、サーバーが立ち上がる
+    - このサーバーにブラウザからHTTPSで接続してサーバー上のJupyter Notebookを動かす
+    - ユーザーから見るとブラウザアプリに見える
 
 ![DXJupyterLab](https://hosokawakenchi.github.io/ukb_rap_usage_notes/images/DXJupyterLab_diagram.svg)
 
 
-## UKB-RAPの動かし方
+## UKB-RAPの動かし方（最初に）
 
 - [UKBioBank DNAnexus](https://ukbiobank.dnanexus.com/)にアクセスする
- - 自分のユーザーIDとパスワードでログイン
+    - 自分のユーザーIDとパスワードでログイン
 - (Optional) プロジェクトを作る
- - 画面右上の "+ New Project" ボタンから作る
- - 一度やっておけば2回目は使いまわし
+    - 画面右上の "+ New Project" ボタンから作る
+    - 一度やっておけば2回目は使いまわし
 - (Optional) JupyterLabのインスタンスを作る
- - 画面上部のツールバーから "TOOLS > JupyterLab" を選択
- - 右上の "+ New JupyterLab" を選択
- - 一度やっておけば2回目は使いまわし
+    - 画面上部のツールバーから "TOOLS > JupyterLab" を選択
+    - 右上の "+ New JupyterLab" を選択
+    - 一度やっておけば2回目は使いまわし
 - インスタンスの設定を記入して"Start Environment"
- - **ここから料金が発生するため注意**
+    - **ここから料金が発生するため注意**
 - JupyterLabのコンテナを立ち上げる
- - しばらく待ち(20分ほど)，以下の表示になったら使用可能
- - "Open" からJupyterLabを開く
- - (スクショ)のような表示になり、分析を行うことができる
+    - しばらく待ち(20分ほど)，以下の表示になったら使用可能
+    - "Open" からJupyterLabを開く
+    - (スクショ)のような表示になり、分析を行うことができる
 - おそらくデータは左の「DNAnexus」タブに入っている
- - 必要なファイルを選択して右クリックでパスをコピーできるので、そこから使用するのが良いかも
+    - 必要なファイルを選択して右クリックでパスをコピーできるので、そこから使用するのが良いかも
 
 
-#### [基本的な挙動？](https://www.youtube.com/watch?v=YIPdhf3qbQA&t=11m45s)
+
+## [基本的な挙動？](https://www.youtube.com/watch?v=YIPdhf3qbQA&t=11m45s)
 
 - 計算をするのに以下の設定が必要
     1. プロジェクトのCohort Browserで"コホート"を作る
@@ -47,6 +48,8 @@
     4. プロジェクトで指定したコホートフィールドをインスタンスに読み込ませる
     5. 計算を実行する
     6. 計算結果をプロジェクトに返す
+
+
  
  
 
