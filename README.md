@@ -1,6 +1,17 @@
 # UKB-RAPの使い方メモ
 
 
+
+## DXJupyterLabの使い方
+
+- [DXJupyterLab](https://ukbiobank.dnanexus.com/panx/tool/app/dxjupyterlab) アプリは、様々なツールを導入済みのJupyterLabサーバーを実行するDockerコンテナである
+ - DXJupyterLabを起動する（Dockerコンテナをインスタンス化する）と、サーバーが立ち上がる
+ - このサーバーにブラウザからHTTPSで接続してサーバー上のJupyter Notebookを動かす
+ - ユーザーから見るとブラウザアプリに見える
+
+![DXJupyterLab](https://hosokawakenchi.github.io/ukb_rap_usage_notes/images/DXJupyterLab_diagram.svg)
+
+
 ## UKB-RAPの動かし方
 
 - [UKBioBank DNAnexus](https://ukbiobank.dnanexus.com/)にアクセスする
@@ -25,38 +36,38 @@
 #### [基本的な挙動？](https://www.youtube.com/watch?v=YIPdhf3qbQA&t=11m45s)
 
 - 計算をするのに以下の設定が必要
- 1. プロジェクトのCohort Browserで"コホート"を作る
- 2. Table Expoterでコホートのフィールド（*データベース用語、エクセルで言うセル*）を選び、TSV（*タブ区切りCSV*）に変換する
- 3. JupyterLabにデータを読み込み計算する
- 4. 結果をプロジェクトに戻す
+    1. プロジェクトのCohort Browserで"コホート"を作る
+    2. Table Expoterでコホートのフィールド（*データベース用語、エクセルで言うセル*）を選び、TSV（*タブ区切りCSV*）に変換する
+    3. JupyterLabにデータを読み込み計算する
+    4. 結果をプロジェクトに戻す
 - おそらく「JupyterLabにデータを読み込み計算する」で[以下のフロー]((https://www.youtube.com/watch?v=YIPdhf3qbQA&t=11m45s))で動作が行われる
- 1. インスタンスを立ち上げる
- 2. (Optional) 追加の実行環境（R等のアプリ）を入れる
- 3. プロジェクト中のNotebooksをインスタンスに読み込ませる
- 4. プロジェクトで指定したコホートフィールドをインスタンスに読み込ませる
- 5. 計算を実行する
- 6. 計算結果をプロジェクトに返す
+    1. インスタンスを立ち上げる
+    2. (Optional) 追加の実行環境（R等のアプリ）を入れる
+    3. プロジェクト中のNotebooksをインスタンスに読み込ませる
+    4. プロジェクトで指定したコホートフィールドをインスタンスに読み込ませる
+    5. 計算を実行する
+    6. 計算結果をプロジェクトに返す
  
  
 
 - UKB RAPには2種類のインスタンスがある
- - シングルノードJupyterLab: 既に抽出済みのデータを使用する場合や，Sparkでの分散処理を必要としない場合　
- - SparkクラスターJupyterLab: HAILやGLOWなどのSparkツールを使用する場合，または複雑な処理を必要とする場合に直接データセットに対するクエリを呼びたい場合に使用する
+    - シングルノードJupyterLab: 既に抽出済みのデータを使用する場合や，Sparkでの分散処理を必要としない場合　
+    - SparkクラスターJupyterLab: HAILやGLOWなどのSparkツールを使用する場合，または複雑な処理を必要とする場合に直接データセットに対するクエリを呼びたい場合に使用する
 - UKB RAPには2種類のストレージがある
- - Research Analysis Project Storage
- - Jupyter Lab Storage: セッションが終了すると消失する一時的なストレージ
+    - Research Analysis Project Storage
+    - Jupyter Lab Storage: セッションが終了すると消失する一時的なストレージ
 
 - [用語](https://www.youtube.com/watch?v=YIPdhf3qbQA&t=8m33s)
- - Kernel
-  - JupyterLabでの専門用語
-  - 各インスタンス内で呼び出す実行環境
-   - **Python_R** : Python + Rが走るカーネル
-   - **Stata** : Stata
-   - **ML_IP** : ML
-   - 他にカスタムなカーネルも作れそう
- - Feature
-  - UKB RAPでの専門用語
-  - 事前に構築済みのカーネルの集合
+    - Kernel
+        - JupyterLabでの専門用語
+        - 各インスタンス内で呼び出す実行環境
+            - **Python_R** : Python + Rが走るカーネル
+            - **Stata** : Stata
+            - **ML_IP** : ML
+            - 他にカスタムなカーネルも作れそう
+    - Feature
+        - UKB RAPでの専門用語
+        - 事前に構築済みのカーネルの集合
 
 ## UKB-RAPへのアクセス
 
@@ -76,16 +87,6 @@
 
 - Genomicsのみ特有のツール
 - それ以外（主要な統計、MRI等含む）は DXJupyterLab App (DNAnexus Platform App) 経由で使えというものが多い
-
-
-## DXJupyterLabの使い方
-
-- [DXJupyterLab](https://ukbiobank.dnanexus.com/panx/tool/app/dxjupyterlab) アプリは、様々なツールを導入済みのJupyterLabサーバーを実行するDockerコンテナである
- - DXJupyterLabを起動する（Dockerコンテナをインスタンス化する）と、サーバーが立ち上がる
- - このサーバーにブラウザからHTTPSで接続してサーバー上のJupyter Notebookを動かす
- - ユーザーから見るとブラウザアプリに見える
-
-![DXJupyterLab](https://hosokawakenchi.github.io/ukb_rap_usage_notes/images/DXJupyterLab_diagram.svg)
 
 
 **Youtube Tutorial**
