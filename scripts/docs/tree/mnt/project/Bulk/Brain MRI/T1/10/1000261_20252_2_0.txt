@@ -1,0 +1,52 @@
+/opt/notebooks/ukb_rap_usage_notes/scripts/1000261_20252_2_0
+└── T1
+    ├── T1.json
+    ├── T1.nii.gz
+    ├── T1_brain.nii.gz
+    ├── T1_brain_mask.nii.gz
+    ├── T1_brain_to_MNI.nii.gz
+    ├── T1_fast
+    │   ├── T1_brain_bias.nii.gz
+    │   ├── T1_brain_pve_0.nii.gz
+    │   ├── T1_brain_pve_1.nii.gz
+    │   ├── T1_brain_pve_2.nii.gz
+    │   └── T1_brain_seg.nii.gz
+    ├── T1_first
+    │   ├── T1_first-BrStem_first.bvars
+    │   ├── T1_first-BrStem_first.vtk
+    │   ├── T1_first-L_Accu_first.bvars
+    │   ├── T1_first-L_Accu_first.vtk
+    │   ├── T1_first-L_Amyg_first.bvars
+    │   ├── T1_first-L_Amyg_first.vtk
+    │   ├── T1_first-L_Caud_first.bvars
+    │   ├── T1_first-L_Caud_first.vtk
+    │   ├── T1_first-L_Hipp_first.bvars
+    │   ├── T1_first-L_Hipp_first.vtk
+    │   ├── T1_first-L_Pall_first.bvars
+    │   ├── T1_first-L_Pall_first.vtk
+    │   ├── T1_first-L_Puta_first.bvars
+    │   ├── T1_first-L_Puta_first.vtk
+    │   ├── T1_first-L_Thal_first.bvars
+    │   ├── T1_first-L_Thal_first.vtk
+    │   ├── T1_first-R_Accu_first.bvars
+    │   ├── T1_first-R_Accu_first.vtk
+    │   ├── T1_first-R_Amyg_first.bvars
+    │   ├── T1_first-R_Amyg_first.vtk
+    │   ├── T1_first-R_Caud_first.bvars
+    │   ├── T1_first-R_Caud_first.vtk
+    │   ├── T1_first-R_Hipp_first.bvars
+    │   ├── T1_first-R_Hipp_first.vtk
+    │   ├── T1_first-R_Pall_first.bvars
+    │   ├── T1_first-R_Pall_first.vtk
+    │   ├── T1_first-R_Puta_first.bvars
+    │   ├── T1_first-R_Puta_first.vtk
+    │   ├── T1_first-R_Thal_first.bvars
+    │   ├── T1_first-R_Thal_first.vtk
+    │   └── T1_first_all_fast_firstseg.nii.gz
+    ├── T1_orig_defaced.nii.gz
+    ├── T1_unbiased_brain.nii.gz
+    └── transforms
+        ├── T1_to_MNI_linear.mat
+        └── T1_to_MNI_warp_coef.nii.gz
+
+4 directories, 45 files
