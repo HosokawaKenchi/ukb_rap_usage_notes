@@ -1,0 +1,21 @@
+/opt/notebooks/ukb_rap_usage_notes/scripts/1000162_20251_2_0
+└── SWI
+    ├── SOS_TE1.nii.gz
+    ├── SOS_TE2.nii.gz
+    ├── SWI.nii.gz
+    ├── SWI_TOTAL_MAG.json
+    ├── SWI_TOTAL_MAG.nii.gz
+    ├── SWI_TOTAL_MAG_TE2.json
+    ├── SWI_TOTAL_MAG_TE2_orig.nii.gz
+    ├── SWI_TOTAL_MAG_orig.nii.gz
+    ├── SWI_TOTAL_MAG_to_T1.nii.gz
+    ├── SWI_TOTAL_PHA.json
+    ├── SWI_TOTAL_PHA_TE2.json
+    ├── SWI_to_T1.mat
+    ├── T1_to_SWI.mat
+    ├── T2star.nii.gz
+    ├── T2star_to_T1.nii.gz
+    ├── brain_mask.nii.gz
+    └── filtered_phase.nii.gz
+
+1 directory, 17 files
