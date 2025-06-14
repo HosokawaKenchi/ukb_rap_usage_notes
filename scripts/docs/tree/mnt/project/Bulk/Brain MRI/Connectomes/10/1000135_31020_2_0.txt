@@ -1,0 +1,7 @@
+/opt/notebooks/ukb_rap_usage_notes/scripts/1000135_31020_2_0
+├── connectome_mean_FA_10M.csv
+├── connectome_mean_length_10M.csv
+├── connectome_sift2_fbc_10M.csv
+└── connectome_streamline_count_10M.csv
+
+0 directories, 4 files

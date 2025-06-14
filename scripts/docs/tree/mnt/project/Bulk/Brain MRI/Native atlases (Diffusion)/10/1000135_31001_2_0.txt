@@ -1,0 +1,4 @@
+/opt/notebooks/ukb_rap_usage_notes/scripts/1000135_31001_2_0
+└── native.dMRI_space.aparc.a2009s.nii.gz
+
+0 directories, 1 file

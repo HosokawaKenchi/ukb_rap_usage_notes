@@ -1,0 +1,7 @@
+/opt/notebooks/ukb_rap_usage_notes/scripts/1000162_31010_2_0
+├── lh.native.aparc.annot
+├── native.aparc.nii.gz
+├── native.fMRI_space.aparc.nii.gz
+└── rh.native.aparc.annot
+
+0 directories, 4 files

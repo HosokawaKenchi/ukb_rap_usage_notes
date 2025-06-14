@@ -1,0 +1,4 @@
+/opt/notebooks/ukb_rap_usage_notes/scripts/1000135_31015_2_0
+└── fMRI.aparc.csv.gz
+
+0 directories, 1 file

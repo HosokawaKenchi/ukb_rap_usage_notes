@@ -1,0 +1,7 @@
+/opt/notebooks/ukb_rap_usage_notes/scripts/1000135_31011_2_0
+├── lh.native.Glasser.annot
+├── native.Glasser.nii.gz
+├── native.fMRI_space.Glasser.nii.gz
+└── rh.native.Glasser.annot
+
+0 directories, 4 files

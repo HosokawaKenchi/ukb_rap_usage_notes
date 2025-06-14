@@ -1,19 +1,8 @@
 #!/bin/bash
 
-SEARCH_DIR="/mnt/project/Bulk/Brain MRI/Surface-based analysis of resting and task fMRI"
+SEARCH_DIR="/mnt/project/Bulk/Brain MRI/ASL"
 OUTPUT_DIR="./docs/tree"
 PYTHON_SCRIPT="./tree_zip.py"
-
-# ASL
-# Connectomes
-# dMRI
-# Functional time series
-# Native atlases
-# Native atlases (Diffusion)
-# Native atlases (Structural and functional)
-# rfMRI
-# Scout
-# Surface-based analysis of resting and task fMRI
 
 # find コマンドの出力を改行区切りで読み込み、配列に格納
 zip_files=()
