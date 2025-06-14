@@ -4,7 +4,13 @@
 
 UKB-RAP上のzipファイルを展開し，`tree`コマンドでディレクトリ構造を可視化した結果を`txt`ファイルで保存しています．
 全てのファイルを展開することは不可能なので，各ディレクトリに保存されている一部のzipファイルに対して処理を行いました．
-例えば，`docs/tree/mnt/project/Bulk/Brain MRI/Native atlases/10/1000011_31000_2_0.txt`に保存されているファイルの場合，UKB-RAP上の`/mnt/project/Bulk/Brain MRI/Native atlases/10/1000011_31000_2_0.zip`に保存されているzipファイルを展開した結果となります。
+
+例えば，`docs/tree/mnt/project/Bulk/Brain MRI/Native atlases/10/1000011_31000_2_0.txt`に保存されているファイルの場合，UKB-RAP上の`/mnt/project/Bulk/Brain MRI/Native atlases/10/1000011_31000_2_0.zip`に保存されているzipファイルを展開した結果となります．
+
+同じディレクトリにあるファイルでも，ファイル名に含まれる`Field ID`が異なる場合は中身が異なります．
+例えば，`T1/10/1000011_20252_2_0.txt`と`T1/10/1000011_20263_2_0.txt`は，同じ`T1`ディレクトリに保存されていますが，それぞれ`Field ID`が`20252`と`20263`で異なるため，中身が違います．
+
+`Field ID`と対応するデータについては[biobankの公式ドキュメント](https://dnanexus.gitbook.io/uk-biobank-rap/getting-started/data-structure/data-release-versions#bulk-fields-in-the-latest-release)を確認してください．
 
 ```code: bash
 ./docs/tree
