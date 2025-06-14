@@ -1,0 +1,4 @@
+/opt/notebooks/ukb_rap_usage_notes/scripts/1000437_31000_2_0
+└── MNI_to_T1_inversed_warp_coef.nii.gz
+
+0 directories, 1 file

@@ -1,0 +1,92 @@
+/opt/notebooks/ukb_rap_usage_notes/scripts/1000239_32136_2_0
+└── surf_fMRI
+    ├── CIFTIs
+    │   ├── bb.rfMRI.MNI.MSMAll.dtseries.nii
+    │   └── bb.tfMRI.MNI.MSMAll.dtseries.nii
+    ├── GIFTIs
+    │   ├── MNI
+    │   │   ├── MSMAll
+    │   │   │   ├── bb.L.midthickness.MNI.MSMAll.surf.gii
+    │   │   │   ├── bb.L.midthickness_vertexareas.MNI.MSMAll.shape.gii
+    │   │   │   ├── bb.L.pial.MNI.MSMAll.surf.gii
+    │   │   │   ├── bb.L.sphere.MNI.MSMAll.surf.gii
+    │   │   │   ├── bb.L.white.MNI.MSMAll.surf.gii
+    │   │   │   ├── bb.R.midthickness.MNI.MSMAll.surf.gii
+    │   │   │   ├── bb.R.midthickness_vertexareas.MNI.MSMAll.shape.gii
+    │   │   │   ├── bb.R.pial.MNI.MSMAll.surf.gii
+    │   │   │   ├── bb.R.sphere.MNI.MSMAll.surf.gii
+    │   │   │   └── bb.R.white.MNI.MSMAll.surf.gii
+    │   │   └── Native
+    │   │       ├── bb.L.midthickness.MNI.native.surf.gii
+    │   │       ├── bb.L.pial.MNI.native.surf.gii
+    │   │       ├── bb.L.white.MNI.native.surf.gii
+    │   │       ├── bb.R.midthickness.MNI.native.surf.gii
+    │   │       ├── bb.R.pial.MNI.native.surf.gii
+    │   │       └── bb.R.white.MNI.native.surf.gii
+    │   └── T1
+    │       └── Native
+    │           ├── bb.L.midthickness.T1.native.surf.gii
+    │           ├── bb.L.midthickness_vertexareas.T1.native.shape.gii
+    │           ├── bb.L.pial.T1.native.surf.gii
+    │           ├── bb.L.white.T1.native.surf.gii
+    │           ├── bb.R.midthickness.T1.native.surf.gii
+    │           ├── bb.R.midthickness_vertexareas.T1.native.shape.gii
+    │           ├── bb.R.pial.T1.native.surf.gii
+    │           └── bb.R.white.T1.native.surf.gii
+    ├── post_proc
+    │   ├── bb.rfMRI.DR_d25.Z.dscalar.nii
+    │   ├── bb.rfMRI.DR_d25.amplitude.txt
+    │   ├── bb.rfMRI.DR_d25.dscalar.nii
+    │   ├── bb.rfMRI.DR_d25.spectra.txt
+    │   ├── bb.rfMRI.DR_d25.timecourse.txt
+    │   ├── bb.rfMRI.DR_d50.Z.dscalar.nii
+    │   ├── bb.rfMRI.DR_d50.amplitude.txt
+    │   ├── bb.rfMRI.DR_d50.dscalar.nii
+    │   ├── bb.rfMRI.DR_d50.spectra.txt
+    │   ├── bb.rfMRI.DR_d50.timecourse.txt
+    │   ├── bb.rfMRI.FSLNETS.d25.NodeAmplitudes.txt
+    │   ├── bb.rfMRI.FSLNETS.d25.fullcorr.txt
+    │   ├── bb.rfMRI.FSLNETS.d25.partialcorr.txt
+    │   ├── bb.rfMRI.FSLNETS.d50.NodeAmplitudes.txt
+    │   ├── bb.rfMRI.FSLNETS.d50.fullcorr.txt
+    │   ├── bb.rfMRI.FSLNETS.d50.partialcorr.txt
+    │   └── task_contrasts
+    │       ├── design.con
+    │       ├── design.fts
+    │       ├── design.mat
+    │       └── stats
+    │           ├── cope1.dscalar.nii
+    │           ├── cope2.dscalar.nii
+    │           ├── cope3.dscalar.nii
+    │           ├── cope4.dscalar.nii
+    │           ├── cope5.dscalar.nii
+    │           ├── fstat1.dscalar.nii
+    │           ├── pe1.dscalar.nii
+    │           ├── pe2.dscalar.nii
+    │           ├── pe3.dscalar.nii
+    │           ├── pe4.dscalar.nii
+    │           ├── sigmasquareds.dscalar.nii
+    │           ├── tstat1.dscalar.nii
+    │           ├── tstat2.dscalar.nii
+    │           ├── tstat3.dscalar.nii
+    │           ├── tstat4.dscalar.nii
+    │           ├── tstat5.dscalar.nii
+    │           ├── varcope1.dscalar.nii
+    │           ├── varcope2.dscalar.nii
+    │           ├── varcope3.dscalar.nii
+    │           ├── varcope4.dscalar.nii
+    │           ├── varcope5.dscalar.nii
+    │           ├── zfstat1.dscalar.nii
+    │           ├── zstat1.dscalar.nii
+    │           ├── zstat2.dscalar.nii
+    │           ├── zstat3.dscalar.nii
+    │           ├── zstat4.dscalar.nii
+    │           └── zstat5.dscalar.nii
+    └── volumetric_masks
+        ├── bb.T1.ribbon.nii.gz
+        ├── bb.fMRI.ribbon.nii.gz
+        ├── bb.fMRI.ribbon_only.nii.gz
+        ├── bb.rfMRI.goodvoxels.nii.gz
+        └── bb.tfMRI.goodvoxels.nii.gz
+
+12 directories, 77 files

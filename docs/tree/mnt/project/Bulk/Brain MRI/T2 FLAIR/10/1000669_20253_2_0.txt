@@ -1,0 +1,6 @@
+/opt/notebooks/ukb_rap_usage_notes/scripts/1000669_20253_2_0
+└── T2_FLAIR
+    └── unusable
+        └── T2_FLAIR_orig_defaced.nii.gz
+
+2 directories, 1 file

@@ -1,0 +1,14 @@
+/opt/notebooks/ukb_rap_usage_notes/scripts/1000239_20253_2_0
+└── T2_FLAIR
+    ├── T2_FLAIR.json
+    ├── T2_FLAIR.nii.gz
+    ├── T2_FLAIR_brain.nii.gz
+    ├── T2_FLAIR_brain_to_MNI.nii.gz
+    ├── T2_FLAIR_orig_defaced.nii.gz
+    ├── T2_FLAIR_unbiased_brain.nii.gz
+    ├── lesions
+    │   └── final_mask.nii.gz
+    └── transforms
+        └── T2_FLAIR_orig_ud_to_T2_FLAIR.mat
+
+3 directories, 8 files

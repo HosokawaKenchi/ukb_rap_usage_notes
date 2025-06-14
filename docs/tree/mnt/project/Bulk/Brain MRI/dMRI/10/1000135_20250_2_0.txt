@@ -1,0 +1,184 @@
+/opt/notebooks/ukb_rap_usage_notes/scripts/1000135_20250_2_0
+├── dMRI
+│   ├── TBSS
+│   │   ├── FA
+│   │   │   ├── MNI_to_dti_FA_warp.nii.gz
+│   │   │   ├── dti_FA_to_MNI.nii.gz
+│   │   │   ├── dti_FA_to_MNI_affine.mat
+│   │   │   └── dti_FA_to_MNI_warp.nii.gz
+│   │   └── stats
+│   │       ├── all_FA_skeletonised.nii.gz
+│   │       ├── all_ICVF_skeletonised.nii.gz
+│   │       ├── all_ISOVF_skeletonised.nii.gz
+│   │       ├── all_L1_skeletonised.nii.gz
+│   │       ├── all_L2_skeletonised.nii.gz
+│   │       ├── all_L3_skeletonised.nii.gz
+│   │       ├── all_MD_skeletonised.nii.gz
+│   │       ├── all_MO_skeletonised.nii.gz
+│   │       └── all_OD_skeletonised.nii.gz
+│   ├── autoptx_preproc
+│   │   └── tracts
+│   │       ├── ar_l
+│   │       │   └── tracts
+│   │       │       └── tractsNorm.nii.gz
+│   │       ├── ar_r
+│   │       │   └── tracts
+│   │       │       └── tractsNorm.nii.gz
+│   │       ├── atr_l
+│   │       │   └── tracts
+│   │       │       └── tractsNorm.nii.gz
+│   │       ├── atr_r
+│   │       │   └── tracts
+│   │       │       └── tractsNorm.nii.gz
+│   │       ├── cgc_l
+│   │       │   └── tracts
+│   │       │       └── tractsNorm.nii.gz
+│   │       ├── cgc_r
+│   │       │   └── tracts
+│   │       │       └── tractsNorm.nii.gz
+│   │       ├── cgh_l
+│   │       │   └── tracts
+│   │       │       └── tractsNorm.nii.gz
+│   │       ├── cgh_r
+│   │       │   └── tracts
+│   │       │       └── tractsNorm.nii.gz
+│   │       ├── cst_l
+│   │       │   └── tracts
+│   │       │       └── tractsNorm.nii.gz
+│   │       ├── cst_r
+│   │       │   └── tracts
+│   │       │       └── tractsNorm.nii.gz
+│   │       ├── fma
+│   │       │   └── tracts
+│   │       │       └── tractsNorm.nii.gz
+│   │       ├── fmi
+│   │       │   └── tracts
+│   │       │       └── tractsNorm.nii.gz
+│   │       ├── ifo_l
+│   │       │   └── tracts
+│   │       │       └── tractsNorm.nii.gz
+│   │       ├── ifo_r
+│   │       │   └── tracts
+│   │       │       └── tractsNorm.nii.gz
+│   │       ├── ilf_l
+│   │       │   └── tracts
+│   │       │       └── tractsNorm.nii.gz
+│   │       ├── ilf_r
+│   │       │   └── tracts
+│   │       │       └── tractsNorm.nii.gz
+│   │       ├── mcp
+│   │       │   └── tracts
+│   │       │       └── tractsNorm.nii.gz
+│   │       ├── ml_l
+│   │       │   └── tracts
+│   │       │       └── tractsNorm.nii.gz
+│   │       ├── ml_r
+│   │       │   └── tracts
+│   │       │       └── tractsNorm.nii.gz
+│   │       ├── ptr_l
+│   │       │   └── tracts
+│   │       │       └── tractsNorm.nii.gz
+│   │       ├── ptr_r
+│   │       │   └── tracts
+│   │       │       └── tractsNorm.nii.gz
+│   │       ├── slf_l
+│   │       │   └── tracts
+│   │       │       └── tractsNorm.nii.gz
+│   │       ├── slf_r
+│   │       │   └── tracts
+│   │       │       └── tractsNorm.nii.gz
+│   │       ├── str_l
+│   │       │   └── tracts
+│   │       │       └── tractsNorm.nii.gz
+│   │       ├── str_r
+│   │       │   └── tracts
+│   │       │       └── tractsNorm.nii.gz
+│   │       ├── unc_l
+│   │       │   └── tracts
+│   │       │       └── tractsNorm.nii.gz
+│   │       └── unc_r
+│   │           └── tracts
+│   │               └── tractsNorm.nii.gz
+│   ├── dMRI
+│   │   ├── NODDI_ICVF.nii.gz
+│   │   ├── NODDI_ISOVF.nii.gz
+│   │   ├── NODDI_OD.nii.gz
+│   │   ├── bvals
+│   │   ├── bvecs
+│   │   ├── data.eddy_movement_rms
+│   │   ├── data.eddy_outlier_map
+│   │   ├── data.eddy_outlier_n_stdev_map
+│   │   ├── data.eddy_outlier_report
+│   │   ├── data.eddy_parameters
+│   │   ├── data.eddy_post_eddy_shell_alignment_parameters
+│   │   ├── data.eddy_rotated_bvecs
+│   │   ├── data_ud.nii.gz
+│   │   ├── dti_FA.nii.gz
+│   │   ├── dti_L1.nii.gz
+│   │   ├── dti_L2.nii.gz
+│   │   ├── dti_L3.nii.gz
+│   │   ├── dti_MD.nii.gz
+│   │   ├── dti_MO.nii.gz
+│   │   ├── dti_S0.nii.gz
+│   │   ├── dti_V1.nii.gz
+│   │   ├── dti_V2.nii.gz
+│   │   └── dti_V3.nii.gz
+│   ├── dMRI.bedpostX
+│   │   ├── bvals
+│   │   ├── bvecs
+│   │   ├── dyads1.nii.gz
+│   │   ├── dyads1_dispersion.nii.gz
+│   │   ├── dyads2.nii.gz
+│   │   ├── dyads2_dispersion.nii.gz
+│   │   ├── dyads2_thr0.05.nii.gz
+│   │   ├── dyads2_thr0.05_modf2.nii.gz
+│   │   ├── dyads3.nii.gz
+│   │   ├── dyads3_dispersion.nii.gz
+│   │   ├── dyads3_thr0.05.nii.gz
+│   │   ├── dyads3_thr0.05_modf3.nii.gz
+│   │   ├── mean_S0samples.nii.gz
+│   │   ├── mean_d_stdsamples.nii.gz
+│   │   ├── mean_dsamples.nii.gz
+│   │   ├── mean_f1samples.nii.gz
+│   │   ├── mean_f2samples.nii.gz
+│   │   ├── mean_f3samples.nii.gz
+│   │   ├── mean_fsumsamples.nii.gz
+│   │   ├── mean_ph1samples.nii.gz
+│   │   ├── mean_ph2samples.nii.gz
+│   │   ├── mean_ph3samples.nii.gz
+│   │   ├── mean_th1samples.nii.gz
+│   │   ├── mean_th2samples.nii.gz
+│   │   ├── mean_th3samples.nii.gz
+│   │   ├── merged_f1samples.nii.gz
+│   │   ├── merged_f2samples.nii.gz
+│   │   ├── merged_f3samples.nii.gz
+│   │   ├── merged_ph1samples.nii.gz
+│   │   ├── merged_ph2samples.nii.gz
+│   │   ├── merged_ph3samples.nii.gz
+│   │   ├── merged_th1samples.nii.gz
+│   │   ├── merged_th2samples.nii.gz
+│   │   ├── merged_th3samples.nii.gz
+│   │   ├── nodif_brain.nii.gz
+│   │   ├── nodif_brain_mask.nii.gz
+│   │   └── xfms
+│   │       └── eye.mat
+│   └── raw
+│       ├── AP.bval
+│       ├── AP.bvec
+│       ├── AP.json
+│       ├── AP.nii.gz
+│       ├── PA.bval
+│       ├── PA.bvec
+│       ├── PA.json
+│       └── PA.nii.gz
+└── fieldmap
+    ├── fieldmap_fout_to_T1_brain_rad.nii.gz
+    ├── fieldmap_iout_mean.nii.gz
+    ├── fieldmap_iout_mean_ud.nii.gz
+    ├── fieldmap_iout_to_T1.mat
+    ├── fieldmap_mask.nii.gz
+    ├── fieldmap_mask_ud.nii.gz
+    ├── fieldmap_out_fieldcoef.nii.gz
+    └── fieldmap_out_movpar.txt
+
+65 directories, 116 files

@@ -1,0 +1,12 @@
+/opt/notebooks/ukb_rap_usage_notes/scripts/1000011_31028_2_0
+├── sift_weights.npy
+├── streamline_metric_0.001xS0_mean.npy
+├── streamline_metric_1000xMD_mean.npy
+├── streamline_metric_FA_mean.npy
+├── streamline_metric_MO_mean.npy
+├── streamline_metric_NODDI_ICVF_mean.npy
+├── streamline_metric_NODDI_ISOVF_mean.npy
+├── streamline_metric_NODDI_OD_mean.npy
+└── streamline_metric_length.npy
+
+0 directories, 9 files

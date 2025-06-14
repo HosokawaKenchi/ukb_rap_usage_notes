@@ -1,0 +1,11 @@
+/opt/notebooks/ukb_rap_usage_notes/scripts/1000011_31013_2_0
+├── native.Tian_Subcortex_S1_3T.nii.gz
+├── native.Tian_Subcortex_S2_3T.nii.gz
+├── native.Tian_Subcortex_S3_3T.nii.gz
+├── native.Tian_Subcortex_S4_3T.nii.gz
+├── native.fMRI_space.Tian_Subcortex_S1_3T.nii.gz
+├── native.fMRI_space.Tian_Subcortex_S2_3T.nii.gz
+├── native.fMRI_space.Tian_Subcortex_S3_3T.nii.gz
+└── native.fMRI_space.Tian_Subcortex_S4_3T.nii.gz
+
+0 directories, 8 files

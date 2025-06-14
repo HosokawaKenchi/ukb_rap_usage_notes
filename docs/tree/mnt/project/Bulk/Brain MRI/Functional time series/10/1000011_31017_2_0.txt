@@ -1,0 +1,4 @@
+/opt/notebooks/ukb_rap_usage_notes/scripts/1000011_31017_2_0
+└── fMRI.global_signal.csv.gz
+
+0 directories, 1 file

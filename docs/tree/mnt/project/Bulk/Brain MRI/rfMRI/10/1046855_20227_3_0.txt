@@ -1,0 +1,7 @@
+/opt/notebooks/ukb_rap_usage_notes/scripts/1046855_20227_3_0
+└── fMRI
+    └── unusable
+        ├── rfMRI.nii.gz
+        └── rfMRI_SBREF.nii.gz
+
+2 directories, 2 files
