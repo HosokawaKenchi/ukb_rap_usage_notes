@@ -79,10 +79,10 @@
 
 ### ツール類
 - [DNANexusのCLIツール](https://documentation.dnanexus.com/downloads)
- - APIキーの管理 はプロフィールページのTokensから行う
+    - APIキーの管理 はプロフィールページのTokensから行う
 - ローカルのシェルスクリプトからAPI経由でコマンドを実行する？
- - [1](https://dnanexus.gitbook.io/uk-biobank-rap/getting-started/training-videos/general#how-to-create-an-app-workflow-and-bring-your-own-tools)
- - [2](https://dnanexus.gitbook.io/uk-biobank-rap/working-on-the-research-analysis-platform/running-analysis-jobs/command-line-interface)
+    - [1](https://dnanexus.gitbook.io/uk-biobank-rap/getting-started/training-videos/general#how-to-create-an-app-workflow-and-bring-your-own-tools)
+    - [2](https://dnanexus.gitbook.io/uk-biobank-rap/working-on-the-research-analysis-platform/running-analysis-jobs/command-line-interface)
 
 ## 使えるライブラリ
 
