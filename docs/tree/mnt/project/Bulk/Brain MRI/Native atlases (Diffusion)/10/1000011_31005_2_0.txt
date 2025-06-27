@@ -1,0 +1,4 @@
+/opt/notebooks/ukb_rap_usage_notes/scripts/1000011_31005_2_0
+└── native.dMRI_space.Schaefer7n500p.nii.gz
+
+0 directories, 1 file

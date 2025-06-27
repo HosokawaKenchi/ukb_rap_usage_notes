@@ -1,0 +1,12 @@
+/opt/notebooks/ukb_rap_usage_notes/scripts/1000371_26301_2_0
+└── SWI
+    └── QSM
+        ├── PHASE_TE1.nii.gz
+        ├── PHASE_TE2.nii.gz
+        ├── QSM.nii.gz
+        ├── QSM_CSF.txt
+        ├── QSM_CSFref.nii.gz
+        ├── QSM_mask.nii.gz
+        └── QSM_ud.nii.gz
+
+2 directories, 7 files

@@ -1,0 +1,70 @@
+/opt/notebooks/ukb_rap_usage_notes/scripts/1016470_20227_2_0
+└── fMRI
+    ├── rfMRI.ica
+    │   ├── absbrainthresh.txt
+    │   ├── design.fsf
+    │   ├── example_func.nii.gz
+    │   ├── filtered_func_data.ica
+    │   │   ├── log.txt
+    │   │   ├── mask.nii.gz
+    │   │   ├── mean.nii.gz
+    │   │   ├── melodic_FTmix
+    │   │   ├── melodic_IC.nii.gz
+    │   │   ├── melodic_ICstats
+    │   │   ├── melodic_PPCA
+    │   │   ├── melodic_Tmodes
+    │   │   └── melodic_mix
+    │   ├── filtered_func_data_clean.nii.gz
+    │   ├── fix4melview_UKBiobank_thr20.txt
+    │   ├── mask.nii.gz
+    │   ├── mc
+    │   │   ├── disp.png
+    │   │   ├── prefiltered_func_data_mcf.cat
+    │   │   ├── prefiltered_func_data_mcf.mat
+    │   │   ├── prefiltered_func_data_mcf.par
+    │   │   ├── prefiltered_func_data_mcf_abs.rms
+    │   │   ├── prefiltered_func_data_mcf_abs_mean.rms
+    │   │   ├── prefiltered_func_data_mcf_conf.nii.gz
+    │   │   ├── prefiltered_func_data_mcf_conf_hp.nii.gz
+    │   │   ├── prefiltered_func_data_mcf_rel.rms
+    │   │   ├── prefiltered_func_data_mcf_rel_mean.rms
+    │   │   ├── rot.png
+    │   │   └── trans.png
+    │   ├── mean_func.nii.gz
+    │   ├── reg
+    │   │   ├── example_func2highres.mat
+    │   │   ├── example_func2highres.png
+    │   │   ├── example_func2standard.mat
+    │   │   ├── example_func2standard.nii.gz
+    │   │   ├── example_func2standard.png
+    │   │   ├── example_func2standard1.png
+    │   │   ├── example_func2standard_warp.nii.gz
+    │   │   ├── highres2standard.png
+    │   │   └── unwarp
+    │   │       ├── EF_D_edges.gif
+    │   │       ├── EF_UD_movie.gif
+    │   │       ├── EF_UD_shift+mag.png
+    │   │       ├── EF_U_edges.gif
+    │   │       ├── FM_UD_fmap_mag_brain2str.png
+    │   │       ├── FM_UD_sigloss+mag.png
+    │   │       ├── example_func_distorted2highres.png
+    │   │       ├── fieldmap2edges.png
+    │   │       ├── fieldmap_fout_to_T1_brain_rad.nii.gz
+    │   │       └── fmap+mag.png
+    │   ├── report.html
+    │   ├── report_log.html
+    │   ├── report_prestats.html
+    │   ├── report_reg.html
+    │   └── report_unwarp.html
+    ├── rfMRI.json
+    ├── rfMRI.nii.gz
+    ├── rfMRI_100.dr
+    │   ├── dr_stage1.txt
+    │   └── dr_stage2.nii.gz
+    ├── rfMRI_25.dr
+    │   ├── dr_stage1.txt
+    │   └── dr_stage2.nii.gz
+    ├── rfMRI_SBREF.json
+    └── rfMRI_SBREF.nii.gz
+
+9 directories, 58 files

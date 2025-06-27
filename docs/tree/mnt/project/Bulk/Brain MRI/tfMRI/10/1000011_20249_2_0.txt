@@ -1,0 +1,321 @@
+/opt/notebooks/ukb_rap_usage_notes/scripts/1000011_20249_2_0
+└── fMRI
+    ├── tfMRI.feat
+    │   ├── absbrainthresh.txt
+    │   ├── cluster_zfstat1.html
+    │   ├── cluster_zfstat1.txt
+    │   ├── cluster_zfstat1_std.html
+    │   ├── cluster_zfstat1_std.txt
+    │   ├── cluster_zstat1.html
+    │   ├── cluster_zstat1.txt
+    │   ├── cluster_zstat1_std.html
+    │   ├── cluster_zstat1_std.txt
+    │   ├── cluster_zstat2.html
+    │   ├── cluster_zstat2.txt
+    │   ├── cluster_zstat2_std.html
+    │   ├── cluster_zstat2_std.txt
+    │   ├── cluster_zstat3.html
+    │   ├── cluster_zstat3.txt
+    │   ├── cluster_zstat3_std.html
+    │   ├── cluster_zstat3_std.txt
+    │   ├── cluster_zstat4.html
+    │   ├── cluster_zstat4.txt
+    │   ├── cluster_zstat4_std.html
+    │   ├── cluster_zstat4_std.txt
+    │   ├── cluster_zstat5.html
+    │   ├── cluster_zstat5.txt
+    │   ├── cluster_zstat5_std.html
+    │   ├── cluster_zstat5_std.txt
+    │   ├── custom_timing_files
+    │   ├── design.con
+    │   ├── design.fsf
+    │   ├── design.fts
+    │   ├── design.mat
+    │   ├── design.png
+    │   ├── design.trg
+    │   ├── design_cov.png
+    │   ├── example_func.nii.gz
+    │   ├── filtered_func_data.nii.gz
+    │   ├── lmax_zfstat1.txt
+    │   ├── lmax_zfstat1_std.txt
+    │   ├── lmax_zstat1.txt
+    │   ├── lmax_zstat1_std.txt
+    │   ├── lmax_zstat2.txt
+    │   ├── lmax_zstat2_std.txt
+    │   ├── lmax_zstat3.txt
+    │   ├── lmax_zstat3_std.txt
+    │   ├── lmax_zstat4.txt
+    │   ├── lmax_zstat4_std.txt
+    │   ├── lmax_zstat5.txt
+    │   ├── lmax_zstat5_std.txt
+    │   ├── mask.nii.gz
+    │   ├── mc
+    │   │   ├── disp.png
+    │   │   ├── prefiltered_func_data_mcf.cat
+    │   │   ├── prefiltered_func_data_mcf.mat
+    │   │   ├── prefiltered_func_data_mcf.par
+    │   │   ├── prefiltered_func_data_mcf_abs.rms
+    │   │   ├── prefiltered_func_data_mcf_abs_mean.rms
+    │   │   ├── prefiltered_func_data_mcf_rel.rms
+    │   │   ├── prefiltered_func_data_mcf_rel_mean.rms
+    │   │   ├── rot.png
+    │   │   └── trans.png
+    │   ├── mean_func.nii.gz
+    │   ├── reg
+    │   │   ├── example_func2highres.mat
+    │   │   ├── example_func2highres.png
+    │   │   ├── example_func2standard.mat
+    │   │   ├── example_func2standard.nii.gz
+    │   │   ├── example_func2standard.png
+    │   │   ├── example_func2standard1.png
+    │   │   ├── example_func2standard_warp.nii.gz
+    │   │   ├── highres2standard.png
+    │   │   └── unwarp
+    │   │       ├── EF_D_edges.gif
+    │   │       ├── EF_UD_movie.gif
+    │   │       ├── EF_UD_shift+mag.png
+    │   │       ├── EF_U_edges.gif
+    │   │       ├── FM_UD_fmap_mag_brain2str.png
+    │   │       ├── FM_UD_sigloss+mag.png
+    │   │       ├── example_func_distorted2highres.png
+    │   │       ├── fieldmap2edges.png
+    │   │       ├── fieldmap_fout_to_T1_brain_rad.nii.gz
+    │   │       └── fmap+mag.png
+    │   ├── rendered_thresh_zfstat1.png
+    │   ├── rendered_thresh_zstat1.png
+    │   ├── rendered_thresh_zstat2.png
+    │   ├── rendered_thresh_zstat3.png
+    │   ├── rendered_thresh_zstat4.png
+    │   ├── rendered_thresh_zstat5.png
+    │   ├── report.html
+    │   ├── report_log.html
+    │   ├── report_poststats.html
+    │   ├── report_prestats.html
+    │   ├── report_reg.html
+    │   ├── report_stats.html
+    │   ├── report_unwarp.html
+    │   ├── stats
+    │   │   ├── cope1.nii.gz
+    │   │   ├── cope2.nii.gz
+    │   │   ├── cope3.nii.gz
+    │   │   ├── cope4.nii.gz
+    │   │   ├── cope5.nii.gz
+    │   │   ├── pe1.nii.gz
+    │   │   ├── pe2.nii.gz
+    │   │   ├── pe3.nii.gz
+    │   │   ├── pe4.nii.gz
+    │   │   ├── smoothness
+    │   │   ├── tstat1.nii.gz
+    │   │   ├── tstat2.nii.gz
+    │   │   ├── tstat3.nii.gz
+    │   │   ├── tstat4.nii.gz
+    │   │   ├── tstat5.nii.gz
+    │   │   ├── varcope1.nii.gz
+    │   │   ├── varcope2.nii.gz
+    │   │   ├── varcope3.nii.gz
+    │   │   ├── varcope4.nii.gz
+    │   │   ├── varcope5.nii.gz
+    │   │   ├── zstat1.nii.gz
+    │   │   ├── zstat2.nii.gz
+    │   │   ├── zstat3.nii.gz
+    │   │   ├── zstat4.nii.gz
+    │   │   └── zstat5.nii.gz
+    │   ├── thresh_zfstat1.nii.gz
+    │   ├── thresh_zstat1.nii.gz
+    │   ├── thresh_zstat2.nii.gz
+    │   ├── thresh_zstat3.nii.gz
+    │   ├── thresh_zstat4.nii.gz
+    │   ├── thresh_zstat5.nii.gz
+    │   └── tsplot
+    │       ├── ps_tsplot_zfstat1_ev1.png
+    │       ├── ps_tsplot_zfstat1_ev1.txt
+    │       ├── ps_tsplot_zfstat1_ev1p.png
+    │       ├── ps_tsplot_zfstat1_ev2.png
+    │       ├── ps_tsplot_zfstat1_ev2.txt
+    │       ├── ps_tsplot_zfstat1_ev2p.png
+    │       ├── ps_tsplot_zfstat1_ev3.png
+    │       ├── ps_tsplot_zfstat1_ev3.txt
+    │       ├── ps_tsplot_zfstat1_ev3p.png
+    │       ├── ps_tsplot_zfstat1_ev4.png
+    │       ├── ps_tsplot_zfstat1_ev4.txt
+    │       ├── ps_tsplot_zfstat1_ev4p.png
+    │       ├── ps_tsplot_zstat1_ev1.png
+    │       ├── ps_tsplot_zstat1_ev1.txt
+    │       ├── ps_tsplot_zstat1_ev1p.png
+    │       ├── ps_tsplot_zstat1_ev2.png
+    │       ├── ps_tsplot_zstat1_ev2.txt
+    │       ├── ps_tsplot_zstat1_ev2p.png
+    │       ├── ps_tsplot_zstat1_ev3.png
+    │       ├── ps_tsplot_zstat1_ev3.txt
+    │       ├── ps_tsplot_zstat1_ev3p.png
+    │       ├── ps_tsplot_zstat1_ev4.png
+    │       ├── ps_tsplot_zstat1_ev4.txt
+    │       ├── ps_tsplot_zstat1_ev4p.png
+    │       ├── ps_tsplot_zstat2_ev1.png
+    │       ├── ps_tsplot_zstat2_ev1.txt
+    │       ├── ps_tsplot_zstat2_ev1p.png
+    │       ├── ps_tsplot_zstat2_ev2.png
+    │       ├── ps_tsplot_zstat2_ev2.txt
+    │       ├── ps_tsplot_zstat2_ev2p.png
+    │       ├── ps_tsplot_zstat2_ev3.png
+    │       ├── ps_tsplot_zstat2_ev3.txt
+    │       ├── ps_tsplot_zstat2_ev3p.png
+    │       ├── ps_tsplot_zstat2_ev4.png
+    │       ├── ps_tsplot_zstat2_ev4.txt
+    │       ├── ps_tsplot_zstat2_ev4p.png
+    │       ├── ps_tsplot_zstat3_ev1.png
+    │       ├── ps_tsplot_zstat3_ev1.txt
+    │       ├── ps_tsplot_zstat3_ev1p.png
+    │       ├── ps_tsplot_zstat3_ev2.png
+    │       ├── ps_tsplot_zstat3_ev2.txt
+    │       ├── ps_tsplot_zstat3_ev2p.png
+    │       ├── ps_tsplot_zstat3_ev3.png
+    │       ├── ps_tsplot_zstat3_ev3.txt
+    │       ├── ps_tsplot_zstat3_ev3p.png
+    │       ├── ps_tsplot_zstat3_ev4.png
+    │       ├── ps_tsplot_zstat3_ev4.txt
+    │       ├── ps_tsplot_zstat3_ev4p.png
+    │       ├── ps_tsplot_zstat4_ev1.png
+    │       ├── ps_tsplot_zstat4_ev1.txt
+    │       ├── ps_tsplot_zstat4_ev1p.png
+    │       ├── ps_tsplot_zstat4_ev2.png
+    │       ├── ps_tsplot_zstat4_ev2.txt
+    │       ├── ps_tsplot_zstat4_ev2p.png
+    │       ├── ps_tsplot_zstat4_ev3.png
+    │       ├── ps_tsplot_zstat4_ev3.txt
+    │       ├── ps_tsplot_zstat4_ev3p.png
+    │       ├── ps_tsplot_zstat4_ev4.png
+    │       ├── ps_tsplot_zstat4_ev4.txt
+    │       ├── ps_tsplot_zstat4_ev4p.png
+    │       ├── ps_tsplot_zstat5_ev1.png
+    │       ├── ps_tsplot_zstat5_ev1.txt
+    │       ├── ps_tsplot_zstat5_ev1p.png
+    │       ├── ps_tsplot_zstat5_ev2.png
+    │       ├── ps_tsplot_zstat5_ev2.txt
+    │       ├── ps_tsplot_zstat5_ev2p.png
+    │       ├── ps_tsplot_zstat5_ev3.png
+    │       ├── ps_tsplot_zstat5_ev3.txt
+    │       ├── ps_tsplot_zstat5_ev3p.png
+    │       ├── ps_tsplot_zstat5_ev4.png
+    │       ├── ps_tsplot_zstat5_ev4.txt
+    │       ├── ps_tsplot_zstat5_ev4p.png
+    │       ├── ps_tsplotc_zfstat1_ev1.png
+    │       ├── ps_tsplotc_zfstat1_ev1.txt
+    │       ├── ps_tsplotc_zfstat1_ev1p.png
+    │       ├── ps_tsplotc_zfstat1_ev2.png
+    │       ├── ps_tsplotc_zfstat1_ev2.txt
+    │       ├── ps_tsplotc_zfstat1_ev2p.png
+    │       ├── ps_tsplotc_zfstat1_ev3.png
+    │       ├── ps_tsplotc_zfstat1_ev3.txt
+    │       ├── ps_tsplotc_zfstat1_ev3p.png
+    │       ├── ps_tsplotc_zfstat1_ev4.png
+    │       ├── ps_tsplotc_zfstat1_ev4.txt
+    │       ├── ps_tsplotc_zfstat1_ev4p.png
+    │       ├── ps_tsplotc_zstat1_ev1.png
+    │       ├── ps_tsplotc_zstat1_ev1.txt
+    │       ├── ps_tsplotc_zstat1_ev1p.png
+    │       ├── ps_tsplotc_zstat1_ev2.png
+    │       ├── ps_tsplotc_zstat1_ev2.txt
+    │       ├── ps_tsplotc_zstat1_ev2p.png
+    │       ├── ps_tsplotc_zstat1_ev3.png
+    │       ├── ps_tsplotc_zstat1_ev3.txt
+    │       ├── ps_tsplotc_zstat1_ev3p.png
+    │       ├── ps_tsplotc_zstat1_ev4.png
+    │       ├── ps_tsplotc_zstat1_ev4.txt
+    │       ├── ps_tsplotc_zstat1_ev4p.png
+    │       ├── ps_tsplotc_zstat2_ev1.png
+    │       ├── ps_tsplotc_zstat2_ev1.txt
+    │       ├── ps_tsplotc_zstat2_ev1p.png
+    │       ├── ps_tsplotc_zstat2_ev2.png
+    │       ├── ps_tsplotc_zstat2_ev2.txt
+    │       ├── ps_tsplotc_zstat2_ev2p.png
+    │       ├── ps_tsplotc_zstat2_ev3.png
+    │       ├── ps_tsplotc_zstat2_ev3.txt
+    │       ├── ps_tsplotc_zstat2_ev3p.png
+    │       ├── ps_tsplotc_zstat2_ev4.png
+    │       ├── ps_tsplotc_zstat2_ev4.txt
+    │       ├── ps_tsplotc_zstat2_ev4p.png
+    │       ├── ps_tsplotc_zstat3_ev1.png
+    │       ├── ps_tsplotc_zstat3_ev1.txt
+    │       ├── ps_tsplotc_zstat3_ev1p.png
+    │       ├── ps_tsplotc_zstat3_ev2.png
+    │       ├── ps_tsplotc_zstat3_ev2.txt
+    │       ├── ps_tsplotc_zstat3_ev2p.png
+    │       ├── ps_tsplotc_zstat3_ev3.png
+    │       ├── ps_tsplotc_zstat3_ev3.txt
+    │       ├── ps_tsplotc_zstat3_ev3p.png
+    │       ├── ps_tsplotc_zstat3_ev4.png
+    │       ├── ps_tsplotc_zstat3_ev4.txt
+    │       ├── ps_tsplotc_zstat3_ev4p.png
+    │       ├── ps_tsplotc_zstat4_ev1.png
+    │       ├── ps_tsplotc_zstat4_ev1.txt
+    │       ├── ps_tsplotc_zstat4_ev1p.png
+    │       ├── ps_tsplotc_zstat4_ev2.png
+    │       ├── ps_tsplotc_zstat4_ev2.txt
+    │       ├── ps_tsplotc_zstat4_ev2p.png
+    │       ├── ps_tsplotc_zstat4_ev3.png
+    │       ├── ps_tsplotc_zstat4_ev3.txt
+    │       ├── ps_tsplotc_zstat4_ev3p.png
+    │       ├── ps_tsplotc_zstat4_ev4.png
+    │       ├── ps_tsplotc_zstat4_ev4.txt
+    │       ├── ps_tsplotc_zstat4_ev4p.png
+    │       ├── ps_tsplotc_zstat5_ev1.png
+    │       ├── ps_tsplotc_zstat5_ev1.txt
+    │       ├── ps_tsplotc_zstat5_ev1p.png
+    │       ├── ps_tsplotc_zstat5_ev2.png
+    │       ├── ps_tsplotc_zstat5_ev2.txt
+    │       ├── ps_tsplotc_zstat5_ev2p.png
+    │       ├── ps_tsplotc_zstat5_ev3.png
+    │       ├── ps_tsplotc_zstat5_ev3.txt
+    │       ├── ps_tsplotc_zstat5_ev3p.png
+    │       ├── ps_tsplotc_zstat5_ev4.png
+    │       ├── ps_tsplotc_zstat5_ev4.txt
+    │       ├── ps_tsplotc_zstat5_ev4p.png
+    │       ├── tsplot_index
+    │       ├── tsplot_index.html
+    │       ├── tsplot_zfstat1.html
+    │       ├── tsplot_zfstat1.png
+    │       ├── tsplot_zfstat1.txt
+    │       ├── tsplot_zstat1.html
+    │       ├── tsplot_zstat1.png
+    │       ├── tsplot_zstat1.txt
+    │       ├── tsplot_zstat1p.png
+    │       ├── tsplot_zstat2.html
+    │       ├── tsplot_zstat2.png
+    │       ├── tsplot_zstat2.txt
+    │       ├── tsplot_zstat2p.png
+    │       ├── tsplot_zstat3.html
+    │       ├── tsplot_zstat3.png
+    │       ├── tsplot_zstat3.txt
+    │       ├── tsplot_zstat3p.png
+    │       ├── tsplot_zstat4.html
+    │       ├── tsplot_zstat4.png
+    │       ├── tsplot_zstat4.txt
+    │       ├── tsplot_zstat4p.png
+    │       ├── tsplot_zstat5.html
+    │       ├── tsplot_zstat5.png
+    │       ├── tsplot_zstat5.txt
+    │       ├── tsplot_zstat5p.png
+    │       ├── tsplotc_zfstat1.png
+    │       ├── tsplotc_zfstat1.txt
+    │       ├── tsplotc_zstat1.png
+    │       ├── tsplotc_zstat1.txt
+    │       ├── tsplotc_zstat1p.png
+    │       ├── tsplotc_zstat2.png
+    │       ├── tsplotc_zstat2.txt
+    │       ├── tsplotc_zstat2p.png
+    │       ├── tsplotc_zstat3.png
+    │       ├── tsplotc_zstat3.txt
+    │       ├── tsplotc_zstat3p.png
+    │       ├── tsplotc_zstat4.png
+    │       ├── tsplotc_zstat4.txt
+    │       ├── tsplotc_zstat4p.png
+    │       ├── tsplotc_zstat5.png
+    │       ├── tsplotc_zstat5.txt
+    │       └── tsplotc_zstat5p.png
+    ├── tfMRI.json
+    ├── tfMRI.nii.gz
+    ├── tfMRI_SBREF.json
+    └── tfMRI_SBREF.nii.gz
+
+9 directories, 309 files

@@ -1,0 +1,249 @@
+/opt/notebooks/ukb_rap_usage_notes/scripts/1002539_26300_2_0
+└── ASL
+    ├── BASIL
+    │   ├── ASL_DATA.nii.gz
+    │   ├── ASL_DATA_diff_mean.nii.gz
+    │   ├── ASL_M0_ud.nii.gz
+    │   ├── CALIB.json
+    │   ├── CALIB.nii.gz
+    │   └── OXASL_ra_dir
+    │       ├── calib
+    │       │   └── M0.nii.gz
+    │       ├── native_space
+    │       │   ├── aCBV_calib.nii.gz
+    │       │   ├── arrival.nii.gz
+    │       │   ├── arrival_var.nii.gz
+    │       │   ├── asl2struct.mat
+    │       │   ├── cerebral_wm_roi.nii.gz
+    │       │   ├── cortical_gm_roi.nii.gz
+    │       │   ├── gm_mask.nii.gz
+    │       │   ├── gm_roi.nii.gz
+    │       │   ├── mask.nii.gz
+    │       │   ├── perfusion_calib.nii.gz
+    │       │   ├── perfusion_norm.nii.gz
+    │       │   ├── perfusion_var_calib.nii.gz
+    │       │   ├── perfusion_var_norm.nii.gz
+    │       │   ├── region_analysis
+    │       │   │   ├── masks_native
+    │       │   │   │   ├── 10%+gm.nii.gz
+    │       │   │   │   ├── 10%+wm.nii.gz
+    │       │   │   │   ├── 70%+gm.nii.gz
+    │       │   │   │   ├── 90%+wm.nii.gz
+    │       │   │   │   ├── angular_gyrus.nii.gz
+    │       │   │   │   ├── brain-stem.nii.gz
+    │       │   │   │   ├── central_opercular_cortex.nii.gz
+    │       │   │   │   ├── cingulate_gyrus_anterior_division.nii.gz
+    │       │   │   │   ├── cingulate_gyrus_posterior_division.nii.gz
+    │       │   │   │   ├── cuneal_cortex.nii.gz
+    │       │   │   │   ├── frontal_medial_cortex.nii.gz
+    │       │   │   │   ├── frontal_operculum_cortex.nii.gz
+    │       │   │   │   ├── frontal_orbital_cortex.nii.gz
+    │       │   │   │   ├── frontal_pole.nii.gz
+    │       │   │   │   ├── gmmask_pure_cort.nii.gz
+    │       │   │   │   ├── heschl's_gyrus_(includes_h1_and_h2).nii.gz
+    │       │   │   │   ├── inferior_frontal_gyrus_pars_opercularis.nii.gz
+    │       │   │   │   ├── inferior_frontal_gyrus_pars_triangularis.nii.gz
+    │       │   │   │   ├── inferior_temporal_gyrus_anterior_division.nii.gz
+    │       │   │   │   ├── inferior_temporal_gyrus_posterior_division.nii.gz
+    │       │   │   │   ├── inferior_temporal_gyrus_temporooccipital_part.nii.gz
+    │       │   │   │   ├── insular_cortex.nii.gz
+    │       │   │   │   ├── intracalcarine_cortex.nii.gz
+    │       │   │   │   ├── juxtapositional_lobule_cortex_(formerly_supplementary_motor_cortex).nii.gz
+    │       │   │   │   ├── lateral_occipital_cortex_inferior_division.nii.gz
+    │       │   │   │   ├── lateral_occipital_cortex_superior_division.nii.gz
+    │       │   │   │   ├── left_accumbens.nii.gz
+    │       │   │   │   ├── left_amygdala.nii.gz
+    │       │   │   │   ├── left_caudate.nii.gz
+    │       │   │   │   ├── left_cerebellum.nii.gz
+    │       │   │   │   ├── left_cerebral_cortex.nii.gz
+    │       │   │   │   ├── left_cerebral_white_matter.nii.gz
+    │       │   │   │   ├── left_cerebral_white_matter_80%+.nii.gz
+    │       │   │   │   ├── left_frontal_lobe.nii.gz
+    │       │   │   │   ├── left_hippocampus.nii.gz
+    │       │   │   │   ├── left_insula.nii.gz
+    │       │   │   │   ├── left_lateral_ventricle.nii.gz
+    │       │   │   │   ├── left_occipital_lobe.nii.gz
+    │       │   │   │   ├── left_pallidum.nii.gz
+    │       │   │   │   ├── left_parietal_lobe.nii.gz
+    │       │   │   │   ├── left_putamen.nii.gz
+    │       │   │   │   ├── left_temporal_lobe.nii.gz
+    │       │   │   │   ├── left_thalamus.nii.gz
+    │       │   │   │   ├── lica.nii.gz
+    │       │   │   │   ├── lingual_gyrus.nii.gz
+    │       │   │   │   ├── middle_frontal_gyrus.nii.gz
+    │       │   │   │   ├── middle_temporal_gyrus_anterior_division.nii.gz
+    │       │   │   │   ├── middle_temporal_gyrus_posterior_division.nii.gz
+    │       │   │   │   ├── middle_temporal_gyrus_temporooccipital_part.nii.gz
+    │       │   │   │   ├── occipital_fusiform_gyrus.nii.gz
+    │       │   │   │   ├── occipital_pole.nii.gz
+    │       │   │   │   ├── paracingulate_gyrus.nii.gz
+    │       │   │   │   ├── parahippocampal_gyrus_anterior_division.nii.gz
+    │       │   │   │   ├── parahippocampal_gyrus_posterior_division.nii.gz
+    │       │   │   │   ├── parietal_operculum_cortex.nii.gz
+    │       │   │   │   ├── planum_polare.nii.gz
+    │       │   │   │   ├── planum_temporale.nii.gz
+    │       │   │   │   ├── postcentral_gyrus.nii.gz
+    │       │   │   │   ├── precentral_gyrus.nii.gz
+    │       │   │   │   ├── precuneous_cortex.nii.gz
+    │       │   │   │   ├── rica.nii.gz
+    │       │   │   │   ├── right_accumbens.nii.gz
+    │       │   │   │   ├── right_amygdala.nii.gz
+    │       │   │   │   ├── right_caudate.nii.gz
+    │       │   │   │   ├── right_cerebellum.nii.gz
+    │       │   │   │   ├── right_cerebral_cortex.nii.gz
+    │       │   │   │   ├── right_cerebral_white_matter.nii.gz
+    │       │   │   │   ├── right_cerebral_white_matter_80%+.nii.gz
+    │       │   │   │   ├── right_frontal_lobe.nii.gz
+    │       │   │   │   ├── right_hippocampus.nii.gz
+    │       │   │   │   ├── right_insula.nii.gz
+    │       │   │   │   ├── right_lateral_ventricle.nii.gz
+    │       │   │   │   ├── right_occipital_lobe.nii.gz
+    │       │   │   │   ├── right_pallidum.nii.gz
+    │       │   │   │   ├── right_parietal_lobe.nii.gz
+    │       │   │   │   ├── right_putamen.nii.gz
+    │       │   │   │   ├── right_temporal_lobe.nii.gz
+    │       │   │   │   ├── right_thalamus.nii.gz
+    │       │   │   │   ├── subcallosal_cortex.nii.gz
+    │       │   │   │   ├── superior_frontal_gyrus.nii.gz
+    │       │   │   │   ├── superior_parietal_lobule.nii.gz
+    │       │   │   │   ├── superior_temporal_gyrus_anterior_division.nii.gz
+    │       │   │   │   ├── superior_temporal_gyrus_posterior_division.nii.gz
+    │       │   │   │   ├── supracalcarine_cortex.nii.gz
+    │       │   │   │   ├── supramarginal_gyrus_anterior_division.nii.gz
+    │       │   │   │   ├── supramarginal_gyrus_posterior_division.nii.gz
+    │       │   │   │   ├── temporal_fusiform_cortex_anterior_division.nii.gz
+    │       │   │   │   ├── temporal_fusiform_cortex_posterior_division.nii.gz
+    │       │   │   │   ├── temporal_occipital_fusiform_cortex.nii.gz
+    │       │   │   │   ├── temporal_pole.nii.gz
+    │       │   │   │   ├── vba.nii.gz
+    │       │   │   │   └── wmmask_pure_cereb.nii.gz
+    │       │   │   ├── region_analysis.csv
+    │       │   │   ├── region_analysis_arrival.csv
+    │       │   │   ├── region_analysis_arrival_gm.csv
+    │       │   │   ├── region_analysis_arrival_wm.csv
+    │       │   │   ├── region_analysis_gm.csv
+    │       │   │   ├── region_analysis_wm.csv
+    │       │   │   ├── rois_native
+    │       │   │   │   ├── 10%+gm.nii.gz
+    │       │   │   │   ├── 10%+wm.nii.gz
+    │       │   │   │   ├── 70%+gm.nii.gz
+    │       │   │   │   ├── 90%+wm.nii.gz
+    │       │   │   │   ├── angular_gyrus.nii.gz
+    │       │   │   │   ├── brain-stem.nii.gz
+    │       │   │   │   ├── central_opercular_cortex.nii.gz
+    │       │   │   │   ├── cingulate_gyrus_anterior_division.nii.gz
+    │       │   │   │   ├── cingulate_gyrus_posterior_division.nii.gz
+    │       │   │   │   ├── cuneal_cortex.nii.gz
+    │       │   │   │   ├── frontal_medial_cortex.nii.gz
+    │       │   │   │   ├── frontal_operculum_cortex.nii.gz
+    │       │   │   │   ├── frontal_orbital_cortex.nii.gz
+    │       │   │   │   ├── frontal_pole.nii.gz
+    │       │   │   │   ├── heschl's_gyrus_(includes_h1_and_h2).nii.gz
+    │       │   │   │   ├── inferior_frontal_gyrus_pars_opercularis.nii.gz
+    │       │   │   │   ├── inferior_frontal_gyrus_pars_triangularis.nii.gz
+    │       │   │   │   ├── inferior_temporal_gyrus_anterior_division.nii.gz
+    │       │   │   │   ├── inferior_temporal_gyrus_posterior_division.nii.gz
+    │       │   │   │   ├── inferior_temporal_gyrus_temporooccipital_part.nii.gz
+    │       │   │   │   ├── insular_cortex.nii.gz
+    │       │   │   │   ├── intracalcarine_cortex.nii.gz
+    │       │   │   │   ├── juxtapositional_lobule_cortex_(formerly_supplementary_motor_cortex).nii.gz
+    │       │   │   │   ├── lateral_occipital_cortex_inferior_division.nii.gz
+    │       │   │   │   ├── lateral_occipital_cortex_superior_division.nii.gz
+    │       │   │   │   ├── left_accumbens.nii.gz
+    │       │   │   │   ├── left_amygdala.nii.gz
+    │       │   │   │   ├── left_caudate.nii.gz
+    │       │   │   │   ├── left_cerebellum.nii.gz
+    │       │   │   │   ├── left_cerebral_cortex.nii.gz
+    │       │   │   │   ├── left_cerebral_white_matter.nii.gz
+    │       │   │   │   ├── left_cerebral_white_matter_80%+.nii.gz
+    │       │   │   │   ├── left_frontal_lobe.nii.gz
+    │       │   │   │   ├── left_hippocampus.nii.gz
+    │       │   │   │   ├── left_insula.nii.gz
+    │       │   │   │   ├── left_lateral_ventricle.nii.gz
+    │       │   │   │   ├── left_occipital_lobe.nii.gz
+    │       │   │   │   ├── left_pallidum.nii.gz
+    │       │   │   │   ├── left_parietal_lobe.nii.gz
+    │       │   │   │   ├── left_putamen.nii.gz
+    │       │   │   │   ├── left_temporal_lobe.nii.gz
+    │       │   │   │   ├── left_thalamus.nii.gz
+    │       │   │   │   ├── lica.nii.gz
+    │       │   │   │   ├── lingual_gyrus.nii.gz
+    │       │   │   │   ├── middle_frontal_gyrus.nii.gz
+    │       │   │   │   ├── middle_temporal_gyrus_anterior_division.nii.gz
+    │       │   │   │   ├── middle_temporal_gyrus_posterior_division.nii.gz
+    │       │   │   │   ├── middle_temporal_gyrus_temporooccipital_part.nii.gz
+    │       │   │   │   ├── occipital_fusiform_gyrus.nii.gz
+    │       │   │   │   ├── occipital_pole.nii.gz
+    │       │   │   │   ├── paracingulate_gyrus.nii.gz
+    │       │   │   │   ├── parahippocampal_gyrus_anterior_division.nii.gz
+    │       │   │   │   ├── parahippocampal_gyrus_posterior_division.nii.gz
+    │       │   │   │   ├── parietal_operculum_cortex.nii.gz
+    │       │   │   │   ├── planum_polare.nii.gz
+    │       │   │   │   ├── planum_temporale.nii.gz
+    │       │   │   │   ├── postcentral_gyrus.nii.gz
+    │       │   │   │   ├── precentral_gyrus.nii.gz
+    │       │   │   │   ├── precuneous_cortex.nii.gz
+    │       │   │   │   ├── rica.nii.gz
+    │       │   │   │   ├── right_accumbens.nii.gz
+    │       │   │   │   ├── right_amygdala.nii.gz
+    │       │   │   │   ├── right_caudate.nii.gz
+    │       │   │   │   ├── right_cerebellum.nii.gz
+    │       │   │   │   ├── right_cerebral_cortex.nii.gz
+    │       │   │   │   ├── right_cerebral_white_matter.nii.gz
+    │       │   │   │   ├── right_cerebral_white_matter_80%+.nii.gz
+    │       │   │   │   ├── right_frontal_lobe.nii.gz
+    │       │   │   │   ├── right_hippocampus.nii.gz
+    │       │   │   │   ├── right_insula.nii.gz
+    │       │   │   │   ├── right_lateral_ventricle.nii.gz
+    │       │   │   │   ├── right_occipital_lobe.nii.gz
+    │       │   │   │   ├── right_pallidum.nii.gz
+    │       │   │   │   ├── right_parietal_lobe.nii.gz
+    │       │   │   │   ├── right_putamen.nii.gz
+    │       │   │   │   ├── right_temporal_lobe.nii.gz
+    │       │   │   │   ├── right_thalamus.nii.gz
+    │       │   │   │   ├── subcallosal_cortex.nii.gz
+    │       │   │   │   ├── superior_frontal_gyrus.nii.gz
+    │       │   │   │   ├── superior_parietal_lobule.nii.gz
+    │       │   │   │   ├── superior_temporal_gyrus_anterior_division.nii.gz
+    │       │   │   │   ├── superior_temporal_gyrus_posterior_division.nii.gz
+    │       │   │   │   ├── supracalcarine_cortex.nii.gz
+    │       │   │   │   ├── supramarginal_gyrus_anterior_division.nii.gz
+    │       │   │   │   ├── supramarginal_gyrus_posterior_division.nii.gz
+    │       │   │   │   ├── temporal_fusiform_cortex_anterior_division.nii.gz
+    │       │   │   │   ├── temporal_fusiform_cortex_posterior_division.nii.gz
+    │       │   │   │   ├── temporal_occipital_fusiform_cortex.nii.gz
+    │       │   │   │   ├── temporal_pole.nii.gz
+    │       │   │   │   └── vba.nii.gz
+    │       │   │   └── rois_struct
+    │       │   │       ├── 10%+gm.nii.gz
+    │       │   │       ├── 10%+wm.nii.gz
+    │       │   │       ├── 70%+gm.nii.gz
+    │       │   │       └── 90%+wm.nii.gz
+    │       │   ├── wm_mask.nii.gz
+    │       │   └── wm_roi.nii.gz
+    │       ├── qc_output
+    │       │   ├── moco_params.par
+    │       │   └── modelfit.nii.gz
+    │       ├── std_space
+    │       │   ├── aCBV_calib.nii.gz
+    │       │   ├── arrival.nii.gz
+    │       │   ├── arrival_var.nii.gz
+    │       │   ├── perfusion_calib.nii.gz
+    │       │   ├── perfusion_norm.nii.gz
+    │       │   ├── perfusion_var_calib.nii.gz
+    │       │   └── perfusion_var_norm.nii.gz
+    │       └── struct_space
+    │           ├── aCBV_calib.nii.gz
+    │           ├── arrival.nii.gz
+    │           ├── arrival_var.nii.gz
+    │           ├── perfusion_calib.nii.gz
+    │           ├── perfusion_norm.nii.gz
+    │           ├── perfusion_var_calib.nii.gz
+    │           └── perfusion_var_norm.nii.gz
+    └── raw
+        ├── ASL_M0.json
+        ├── ASL_M0.nii.gz
+        ├── ASL_M0_NORM.json
+        └── ASL_M0_NORM.nii.gz
+
+13 directories, 233 files
